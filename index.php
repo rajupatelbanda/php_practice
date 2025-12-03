@@ -21,3 +21,9 @@ class Fruit
                     return "The fruit is " . $this->name . " and the color is " . $this->color . ".";
           }
 }
+
+$obj=new Fruit();
+echo $obj->myFruit('apple','red');
+
+
+
