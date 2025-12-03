@@ -22,8 +22,5 @@ class Fruit
           }
 }
 
-$obj=new Fruit();
-echo $obj->myFruit('apple','red');
-
-
-
+$obj = new Fruit('apple', 'red');
+echo $obj->myFruit();
